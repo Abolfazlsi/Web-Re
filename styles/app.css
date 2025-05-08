@@ -514,6 +514,65 @@ body {
 
 }
 
+/* Footer */
+
+.footer {
+
+}
+.footer-up {
+    background-color: #2C57E4;
+    padding: 5rem 0;
+    color: #ffff;
+
+}
+.footer-up__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-up__text {
+    font-weight: normal;
+    font-size: 1.6rem;
+}
+.footer-up__email {
+    background-color: #fff;
+    flex-basis: 20rem;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.3rem;
+
+}
+.footer-up__txt {
+    border: none;
+    padding: 1rem;
+    outline: none;
+
+}
+.footer-up__btn {
+    background-color: #2F5BEA;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+
+}
+
+.footer-bottom {
+
+}
+.footer-bottom__wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: #6C7890;
+    padding: 1rem 0;
+    align-items: center;
+
+}
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
