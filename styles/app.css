@@ -621,6 +621,18 @@ body {
     .works-content {
         flex-wrap: wrap;
     }
+    .comments {
+        flex-wrap: wrap;
+    }
+    .comment {
+        flex-basis: 19rem;
+    }
+    .companies {
+        justify-content: center;
+    }
+    .company {
+        margin: 0.5rem 1rem;
+    }
 
 }
 
@@ -653,6 +665,10 @@ body {
     .works-content__item {
         flex-basis: 14rem;
     }
+    .comment {
+        margin: 0 0.5rem 1.5rem 0;
+        flex-basis: 15rem;
+    }
 
 }
 
@@ -666,5 +682,11 @@ body {
     }
     .works-content__text {
         max-width: 100%;
+    }
+    .comment {
+        flex-basis: 100%;
+    }
+    .companies {
+        flex-direction: column;
     }
 }
