@@ -350,12 +350,13 @@ body {
     text-align: center;
 }
 
-.works__text {
+.works__text, .portfolio__text {
     color: #6C7890;
     margin: 0;
+    text-transform: uppercase;
 
 }
-.works__title {
+.works__title, .portfolio__title {
     color: #081D43;
     margin-top: 0.8rem;
     font-family: 'TTNorms Medium';
@@ -477,6 +478,40 @@ body {
 .company {
     display: block;
     margin: 0 1rem;
+}
+
+
+
+/* Portfolio-Section */
+
+.portfolio {
+    text-align: center;
+    padding: 6rem 0;
+}
+.container {
+
+}
+.portfolio__text {
+
+}
+.portfolio__title {
+
+}
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.portfolio__item {
+    margin: 1rem 0;
+    flex-basis: 25rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.portfolio__img {
+    width: 100%;
+
 }
 
 /* Project Responsive */
